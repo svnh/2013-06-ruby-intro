@@ -11,6 +11,6 @@ task :test do
 end
 
 task :extra do
-	ruby 'path_to_enlightenment_extra.rb'
+  ruby 'path_to_enlightenment_extra.rb'
 end
 
