@@ -50,6 +50,8 @@ recommended way to run them as we might build more functionality into this task)
 
     [ruby_koans] $ rake                           # runs the default target :walk_the_path
     [ruby_koans] $ ruby path_to_enlightenment.rb  # simply call the file directly
+    [ruby_koans] $ rake extra
+    # runs the extra credit exercises  
 
 Windows is the same thing
 

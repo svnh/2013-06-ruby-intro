@@ -10,3 +10,7 @@ task :test do
   ruby 'path_to_enlightenment.rb'
 end
 
+task :extra do
+	ruby 'path_to_enlightenment_extra.rb'
+end
+
