@@ -7,7 +7,7 @@ class Stack
   end
 
   def length
-  	@length
+    @length
   end
 
   def add item
@@ -16,7 +16,7 @@ class Stack
   end
 
   def remove
-	@length = @length - 1
+    @length = @length - 1
     @storage[@length]
   end
 end
