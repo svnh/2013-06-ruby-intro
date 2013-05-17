@@ -12,11 +12,11 @@ class Stack
 
   def add item
     @storage[@length] = item
-    @length = @length + 1
+    @length += 1
   end
 
   def remove
-    @length = @length - 1
+    @length -= 1
     @storage[@length]
   end
 end
