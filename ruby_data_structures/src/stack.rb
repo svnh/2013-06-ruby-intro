@@ -16,7 +16,9 @@ class Stack
   end
 
   def remove
-    @length -= 1
-    @storage[@length]
+    unless @length <= 0
+      @length -= 1
+      @storage[@length]
+    end
   end
 end
