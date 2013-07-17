@@ -22,30 +22,30 @@ Person.population = 0;
 
 var jon = new Person(23, "Jon");
 
-jon.age;  
+jon.age;
 // => 23
 
-jon.first_name; 
+jon.first_name;
 // => "Jon"
 
-jon.population    
+jon.population
 // => undefined
 
-Person.population 
-// => 1 
+Person.population
+// => 1
 
 jon.age = 50
 
-jon.age		  
+jon.age
 // => 50
 
 var Mary = new Person(35, "Mary");
 
-Person.population  
+Person.population
 // => 2
 
-typeof Person	
+typeof Person
 // => 'function'
 
-typeof jon 		
+typeof jon
 // => 'object'
